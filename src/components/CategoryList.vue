@@ -14,3 +14,19 @@ import { inject } from 'vue';
 
 const products = inject('products');
 </script>
+
+<style scoped>
+.category-list {
+  flex: 1;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+</style>

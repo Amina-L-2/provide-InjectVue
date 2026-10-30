@@ -20,3 +20,33 @@ const addToCart = () => {
 }
 
 </script>
+
+<style scoped>
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  background: white;
+}
+
+.product-info {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  background-color: #f9c5d5;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f7aec4;
+}
+</style>
